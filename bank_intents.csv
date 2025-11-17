@@ -1,0 +1,5 @@
+text,label
+"I want to check my account balance",balance_inquiry
+"I forgot my pin",pin_reset
+"My ATM card was swallowed",card_issue
+"Why was money deducted from my account?",complaint
