@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 
 import pickle
 
-df = pd.read_csv('bank_intents.csv')
+df = pd.read_csv('bank_intents_new.csv')
 X_train, X_test, y_train, y_test = train_test_split(
     df['text'], df['label'], test_size=0.2, random_state=42
 )
